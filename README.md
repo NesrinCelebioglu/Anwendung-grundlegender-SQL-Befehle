@@ -9,7 +9,7 @@ Dieses Repository enthält ein SQL-Skript zur Erstellung und Verwaltung einer HR
 | CODE             | VARCHAR(50)  | Mitarbeitercode                   |
 | TCNUMBER         | VARCHAR(11)  | Personalausweisnummer             |
 | NAME_ / SURNAME  | VARCHAR(50)  | Vorname / Nachname                |
-| GENDER           | VARCHAR(1)   | E=Erkek / K=Kadın                 |
+| GENDER           | VARCHAR(1)   | E=Männlich / K=Weiblich           |
 | BIRTHDATE        | DATE         | Geburtsdatum                      |
 | INDATE / OUTDATE | DATE         | Einstellungs- / Austrittsdatum    |
 | DEPARTMENTID     | INT          | FK → DEPARTMENT.ID                |
